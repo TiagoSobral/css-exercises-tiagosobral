@@ -1,0 +1,27 @@
+div .text{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* the example above, shows us how to combine a class with element, 
+div (element that has nothing behind) 
+combined with TEXT (the class which has to have .text behind it to work) 
+
+Other ways:
+
+div p
+.container p
+
+*/
+
+.container .text{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Example above is to show us the normal way to use descendant combinators/*
+
